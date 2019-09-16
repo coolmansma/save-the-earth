@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Save The Earth | home</title>
     <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
-    <title>Save The Earth</title>
 </head>
 <body id="top">
 <div class="wrapper col1">
@@ -17,16 +17,16 @@
         <li><a class="active" href="index.html">Home</a></li>
         <li><a href="pages/style-demo.html">Style Demo</a></li>
         <li><a href="pages/full-width.html">Full Width</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li class="last"><a href="#">A Long Link Text</a></li>
+        <li><a href="#home">Contact Us</a></li>
+        <li class="last"><a href="#home">A Long Link Text</a></li>
       </ul>
     </div>
     <div id="search">
       <form action="#" method="post">
         <fieldset>
           <legend>Site Search</legend>
-          <input type="submit" name="go" id="go" value="GO" />
-          <input type="text" value="Search the site&hellip;"  onfocus="this.value=(this.value=='Search the site&hellip;')? '' : this.value ;" />
+          <input aria-label="go" type="submit" name="go" id="go" value="GO" />
+          <input aria-label="search" type="text" value="Search the site&hellip;"  onfocus="this.value=(this.value=='Search the site&hellip;')? '' : this.value ;" />
         </fieldset>
       </form>
     </div>
